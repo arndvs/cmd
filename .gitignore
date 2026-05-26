@@ -1,2 +1,33 @@
+# Research (private, not part of the open-source repo)
 research/
-aaron-project.md
+
+# Secrets — non-negotiable
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+secrets*
+*.secret.*
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Obsidian (settings are personal, vault structure is shared)
+.obsidian/
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node (for compute/ Workers)
+node_modules/
+dist/
+.wrangler/
