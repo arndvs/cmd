@@ -11,7 +11,7 @@ AI agent skills that operate on cmd. Each skill is a directory with a `SKILL.md`
 | `cmd-voice-check` | Validate draft against voice samples and style guide | ready |
 | `cmd-cadence` | Execute a cadence rhythm (daily/weekly/monthly/quarterly/yearly) | ready |
 | `cmd-lint` | Check structural integrity — orphans, stale ventures, TKTK | ready |
-| `cmd-sunday-batch` | Sunday content batch: pick ideas, draft, voice-check | planned |
+| `cmd-sunday-batch` | Sunday content batch: pick ideas, draft, voice-check | ready |
 
 ## Skill format
 
