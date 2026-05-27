@@ -18,6 +18,7 @@ cmd/
 ├── raw/                ← IMMUTABLE source material (you add, AI reads, never edits)
 │   ├── articles/       ← Research docs, web clips, agreements
 │   ├── transcripts/    ← Meeting transcripts, voice notes
+│   ├── screenshots/    ← Images, design inspiration, competitor screenshots
 │   ├── uploads/        ← Files dropped here for AI context
 │   └── data/           ← CSVs, JSON exports, datasets
 │
@@ -53,6 +54,11 @@ cmd/
 ├── tools/              ← Reusable scripts, utilities, AI skills
 │   └── skills/         ← Claude Skills — invokable workflows
 └── archive/            ← Deprecated, completed, or one-off material
+    ├── strategy/       ← Past quarters' objectives, rocks, and themes
+    ├── ventures/       ← Paused or killed ventures
+    ├── clients/        ← Completed engagements
+    ├── concepts/       ← Superseded wiki concepts
+    └── people/         ← Inactive contacts
 ```
 
 ---
@@ -63,7 +69,7 @@ When creating or saving a new file:
 
 ```
 Is it source material (PDF, transcript, screenshot, CSV, raw doc)?
-  → raw/  (pick: articles, transcripts, uploads, or data)
+  → raw/  (pick: articles, transcripts, screenshots, uploads, or data)
 
 Is it compiled knowledge (summary, entity page, research synthesis)?
   → wiki/  (pick: ventures, clients, people, or concepts)
@@ -149,7 +155,7 @@ The operator says "build me a thing." The AI reads `CLAUDE.md` + relevant `wiki/
 ### Deploy
 For cloud-side artifacts (Workers, scheduled jobs, etc.):
 1. Execute deploy from inside the folder.
-2. Capture the live URL or status in `ventures/<name>/_links.md`.
+2. Capture the live URL or status in `ventures/<name>/links.md`.
 3. Log to `log.md` with the deploy timestamp.
 
 ---
