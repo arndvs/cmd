@@ -38,8 +38,8 @@ Any other file at root is a violation.
 Scan `$CMD_DIR/` for directories not in the allowed set:
 
 ```
-raw, wiki, ventures, clients, strategy, cadence, content,
-atlas, templates, tools, archive, research
+raw, wiki, ventures, clients, strategy, cadence, missions, calendar,
+content, compute, atlas, templates, tools, archive, research
 ```
 
 Any other directory at root is a violation (except `.git`, `.obsidian`).
