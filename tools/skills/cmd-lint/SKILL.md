@@ -80,6 +80,8 @@ Scan `log.md` for entries that don't match the expected format:
 [YYYY-MM-DD] operation | description
 ```
 
+Skip blank lines, headings (`#`), and HTML comments (`<!-- ... -->`) — these are structural scaffolding, not log entries.
+
 Valid operations: `ingest`, `query`, `compile`, `lint`, `decision`, `build`, `deploy`, `content`, `cadence`
 
 ### 3. Generate report

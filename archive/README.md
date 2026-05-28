@@ -10,7 +10,8 @@ archive/
 ├── ventures/       ← Paused or killed ventures
 ├── clients/        ← Completed engagements
 ├── concepts/       ← Superseded wiki concepts
-└── people/         ← Inactive contacts
+├── people/         ← Inactive contacts
+└── missions/       ← Closed mission sidecars
 ```
 
 ## Rules

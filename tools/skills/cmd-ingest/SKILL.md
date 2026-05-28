@@ -37,6 +37,7 @@ Read the raw file and determine its type:
 |---|---|---|
 | `raw/articles/` | Article/research | Summarize key claims, extract entities, note source URL |
 | `raw/transcripts/` | Meeting/conversation | Extract decisions, action items, people mentioned, key quotes |
+| `raw/screenshots/` | Visual reference | Describe content, identify products/brands/patterns, note context |
 | `raw/uploads/` | Misc document | Summarize content, identify entities and topics |
 | `raw/data/` | Structured data | Describe schema, key metrics, date range, notable patterns |
 

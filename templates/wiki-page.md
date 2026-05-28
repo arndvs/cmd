@@ -9,7 +9,7 @@
 ```markdown
 ---
 type: venture | client | person | concept
-status: active | inactive | archived
+status: active | paused | archived
 last_updated: YYYY-MM-DD
 ---
 

@@ -1,5 +1,3 @@
-# Mission
-
 ---
 type: mission
 ticket: [PROJ-42](https://your-pm-tool.com/issue/PROJ-42)
@@ -7,6 +5,8 @@ status: in-progress | blocked | done
 rock: [which rock or objective this serves]
 created: YYYY-MM-DD
 ---
+
+# Mission
 
 ## Context
 
