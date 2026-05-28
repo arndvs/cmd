@@ -79,14 +79,14 @@ The most important 15 minutes of the day.
 
 - Log everything meaningful to `log.md` — one line per action
 - Update any venture/client timelines that changed
-- If using Linear, ensure every meaningful action has a ticket with rich detail
+- Ensure every meaningful action has a PM ticket with rich detail
 - Fill out the daily review (`_template/daily.md` → `reviews/`)
-- Review tomorrow's Linear queue — edit priorities before bed, not after coffee
+- Review tomorrow's PM queue — edit priorities before bed, not after coffee
 - Close laptop. Walk away.
 
 ### Why daily matters
 
-`log.md` (and Linear, when active) becomes the journal of the work done. Months later, you can ask "when did I add that? why?" — and there's an entry with the answer. The discipline at end-of-day is what makes the knowledge base possible at all.
+`log.md` (and your PM tool, when active) becomes the journal of the work done. Months later, you can ask "when did I add that? why?" — and there's an entry with the answer. The discipline at end-of-day is what makes the knowledge base possible at all.
 
 ---
 

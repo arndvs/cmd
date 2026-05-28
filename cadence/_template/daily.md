@@ -5,7 +5,7 @@
 - [ ] Pull latest across active repos
 - [ ] Quick scan — new messages, orders, alerts?
 - [ ] KPI gauge: today vs yesterday vs rolling 7-day average
-- [ ] Set today's priorities in Linear / GitHub
+- [ ] Set today's priorities in your PM tool
 
 **Shape of the day:**
 <!-- One sentence. What's the dominant thing today? -->
@@ -36,7 +36,7 @@ Triangle check:
 ## EOD ritual
 
 - [ ] Logged everything meaningful to `log.md`
-- [ ] Linear tickets updated with rich detail (not just headlines)
+- [ ] PM tickets updated with rich detail (not just headlines)
 - [ ] Venture/client timelines updated if anything changed
-- [ ] Tomorrow's Linear queue reviewed — priorities edited before bed, not after coffee
+- [ ] Tomorrow's PM queue reviewed — priorities edited before bed, not after coffee
 - [ ] Laptop closed
