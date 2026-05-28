@@ -35,7 +35,12 @@ cmd is how you give your AI senior context. Put your strategy, decisions, voice,
 │
 ├── strategy/           ← Objectives, rocks, themes, reviews
 ├── cadence/            ← Daily / weekly / monthly / quarterly / yearly rhythms
+├── missions/           ← Context sidecars for PM tickets (optional)
+├── calendar/           ← Daily notes, journal (human-authored)
 ├── content/            ← Content engine — voice, ideas, drafts, posts
+│
+├── compute/            ← Active infrastructure catalog
+│   └── stacks.md
 │
 ├── atlas/              ← Navigation maps + dashboards
 ├── templates/          ← Reusable patterns
@@ -76,7 +81,7 @@ Six operations, inherited from [Karpathy's filesystem-as-AI-interface](https://k
 
 ## How to extend
 
-- **Add ventures:** `ventures/<name>/` with `README.md` + `decisions.md` + `_links.md`
+- **Add ventures:** `ventures/<name>/` with `README.md` + `decisions.md` + `links.md`
 - **Add clients:** `clients/<name>/` — same shape, different relationship
 - **Add wiki entities:** drop a markdown file in `wiki/ventures/`, `wiki/people/`, etc.
 - **Add templates:** reusable patterns in `templates/`
@@ -84,13 +89,13 @@ Six operations, inherited from [Karpathy's filesystem-as-AI-interface](https://k
 
 ## What's NOT in here
 
-- **No credentials.** Secrets live outside the repo. Always. See `CLAUDE.md` for the contract.
-- **No project code.** Venture codebases live in their own repos, referenced from `ventures/<name>/_links.md`.
+- **No credentials.** Secrets live outside the repo. Always. See the "Rules" section in `CLAUDE.md`.
+- **No project code.** Venture codebases live in their own repos, referenced from `ventures/<name>/links.md`.
 - **No proprietary formats.** Plain markdown in version control beats every knowledge base SaaS.
 
 ## Compute layer (optional)
 
-cmd works as pure local markdown. For operators who want automation, a `compute/` directory supports Cloudflare Workers, D1, R2, and cron-triggered cadence automation. See `compute/README.md` when you're ready.
+cmd works as pure local markdown. For operators who want to catalog their running infrastructure, the `compute/` directory tracks technology stacks, deployed services, and active agents. No code lives here — deployable applications belong in their own repos. See `compute/README.md` for details.
 
 ## License
 

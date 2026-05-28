@@ -37,6 +37,7 @@ Read the raw file and determine its type:
 |---|---|---|
 | `raw/articles/` | Article/research | Summarize key claims, extract entities, note source URL |
 | `raw/transcripts/` | Meeting/conversation | Extract decisions, action items, people mentioned, key quotes |
+| `raw/screenshots/` | Visual reference | Describe content, identify products/brands/patterns, note context |
 | `raw/uploads/` | Misc document | Summarize content, identify entities and topics |
 | `raw/data/` | Structured data | Describe schema, key metrics, date range, notable patterns |
 
@@ -62,16 +63,18 @@ For each entity (person, venture, client, concept) identified in the source:
 - **Clients** → `wiki/clients/<name-slug>.md`
 - **Concepts** → `wiki/concepts/<topic-slug>.md`
 
-Use the entity page template:
+Use the entity page template (matches `templates/wiki-page.md`):
 
 ```markdown
+---
+type: person | venture | client | concept
+status: active
+last_updated: YYYY-MM-DD
+---
+
 # <Name>
 
 > <One-line description>
-
-**Type:** person | venture | client | concept
-**First seen:** YYYY-MM-DD
-**Source:** raw/<path>
 
 ## Summary
 
@@ -79,8 +82,8 @@ Use the entity page template:
 
 ## Key facts
 
-- Fact 1
-- Fact 2
+- **Source:** raw/<path>
+- **First seen:** YYYY-MM-DD
 
 ## Sources
 

@@ -72,15 +72,17 @@ TKTK_ONELINER
 Create `$CMD_DIR/wiki/ventures/<slug>.md` or `$CMD_DIR/wiki/clients/<slug>.md`:
 
 ```markdown
+---
+type: venture | client
+status: active
+last_updated: YYYY-MM-DD
+---
+
 # <Name>
 
 > <One-liner>
 
-**Type:** venture | client
-**Created:** YYYY-MM-DD
-**Status:** active
-
-## Overview
+## Summary
 
 TKTK — expand after initial setup.
 

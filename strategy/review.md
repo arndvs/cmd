@@ -21,6 +21,8 @@
 
 [What it might mean:]
 
+[How I'll test the hypothesis:]
+
 ### 3. What did I say I'd do last month that I didn't?
 
 - [Item]
@@ -38,6 +40,8 @@
 
 [What investment looks like:]
 
+[When I'll do it:]
+
 ### 5. What surprised me this month that reshapes how I think?
 
 > The thing you didn't expect. A customer says something, an experiment lands sideways, a competitor moves.
@@ -52,3 +56,11 @@
 
 - [ ] Yes — edited, change logged here: [what changed]
 - [ ] No — confirmed direction holds
+
+**Changes made:** [if any]
+
+---
+
+## What rolls up to next month
+
+The monthly review feeds the [quarterly cadence](../cadence/_template/quarterly.md). After three monthly reviews, the quarterly retrospective has real signal — not vibes.
