@@ -54,7 +54,7 @@ Scan `ventures/` and `clients/` directories. Cross-reference with `log.md`. Flag
 
 #### Check 5: TKTK placeholders
 
-Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`) are exempt.
+Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`) and seed-content files (`compute/stacks.md`) are exempt.
 
 #### Check 6: index.md sync
 

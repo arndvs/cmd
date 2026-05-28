@@ -63,16 +63,18 @@ For each entity (person, venture, client, concept) identified in the source:
 - **Clients** → `wiki/clients/<name-slug>.md`
 - **Concepts** → `wiki/concepts/<topic-slug>.md`
 
-Use the entity page template:
+Use the entity page template (matches `templates/wiki-page.md`):
 
 ```markdown
+---
+type: person | venture | client | concept
+status: active
+last_updated: YYYY-MM-DD
+---
+
 # <Name>
 
 > <One-line description>
-
-**Type:** person | venture | client | concept
-**First seen:** YYYY-MM-DD
-**Source:** raw/<path>
 
 ## Summary
 
@@ -80,8 +82,8 @@ Use the entity page template:
 
 ## Key facts
 
-- Fact 1
-- Fact 2
+- **Source:** raw/<path>
+- **First seen:** YYYY-MM-DD
 
 ## Sources
 
