@@ -10,7 +10,6 @@ Immutable source material. You add files here. AI reads them. Nobody edits them 
 - `transcripts/` — meeting transcripts, voice notes, call recordings
 - `uploads/` — files dropped here for AI context (anything that doesn't fit above)
 
-
 ## Rules
 
 - **Never edit a file in raw/.** If you need to correct something, add a new version with a suffix (`-v2`, `-corrected`).
