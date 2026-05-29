@@ -229,7 +229,7 @@ A deep review — not a quick summary. 10+ hours of reflection across voice note
 
 ### The output
 
-Produce a finalized review document formatted for AI consumption. Drop it in `strategy/yearly-YYYY.md`. Next year, every AI session has this context. This year's review becomes next year's strategy input. That's the compound.
+Produce a finalized review document formatted for AI consumption. Drop it in `cadence/reviews/YYYY-MM-DD-yearly.md` (same destination as all cadence reviews). Next year, every AI session has this context. This year's review becomes next year's strategy input. That's the compound.
 
 ### Set the next year
 

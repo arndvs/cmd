@@ -39,7 +39,7 @@ When a quarter or year ends, archive the outgoing files before updating:
 
 **At year boundary:**
 1. Copy `theme.md` → `archive/strategy/YYYY-theme.md`
-2. The yearly cadence review produces `strategy/yearly-YYYY.md` — that stays in `strategy/` as permanent history
+2. The yearly cadence review produces `cadence/reviews/YYYY-MM-DD-yearly.md` (same destination as all cadence reviews)
 3. Update `theme.md` for the new year
 
 **Naming convention:**
