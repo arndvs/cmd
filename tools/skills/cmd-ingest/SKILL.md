@@ -63,7 +63,7 @@ For each entity (person, venture, client, concept) identified in the source:
 - **Clients** → `wiki/clients/<name-slug>.md`
 - **Concepts** → `wiki/concepts/<topic-slug>.md`
 
-Use the entity page template (matches `templates/wiki-page.md`):
+Use the entity page template from `templates/wiki-page.md`:
 
 ```markdown
 ---
@@ -74,24 +74,22 @@ last_updated: YYYY-MM-DD
 
 # <Name>
 
-> <One-line description>
+> <One-line tagline — what this is in ≤15 words>
 
 ## Summary
 
-<2-3 sentence summary of what we know>
+<2-3 sentences. What an AI session needs to know in 10 seconds.>
 
 ## Key facts
 
 - **Source:** raw/<path>
 - **First seen:** YYYY-MM-DD
 
-## Sources
+## [Type-specific sections — see templates/wiki-page.md]
 
-- [raw/<path>](../../raw/<path>) — ingested YYYY-MM-DD
+## Links
 
-## Related
-
-- [[other-entity]] — relationship description
+- **[Label]:** [[path/to/related-page]]
 ```
 
 ### 5. Maintain cross-references
