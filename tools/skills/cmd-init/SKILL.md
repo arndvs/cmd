@@ -86,13 +86,13 @@ last_updated: YYYY-MM-DD
 
 TKTK — expand after initial setup.
 
-## Key decisions
+## Key facts
 
-- [YYYY-MM-DD] Founded — see [decisions.md](../../ventures/<slug>/decisions.md)
+- **Founded:** YYYY-MM-DD — see [decisions.md](../../ventures/<slug>/decisions.md)
 
-## Related
+## Links
 
-- Venture directory: [ventures/<slug>/](../../ventures/<slug>/)
+- **Venture directory:** [ventures/<slug>/](../../ventures/<slug>/)
 ```
 
 ### 6. Update index.md
