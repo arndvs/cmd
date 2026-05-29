@@ -97,7 +97,7 @@ TKTK — expand after initial setup.
 
 ### 6. Update index.md
 
-Add the new wiki page entry under the appropriate section in `$CMD_DIR/index.md`. If a `## wiki/<type>/` header already exists, insert the entry below it. If the header doesn't exist, append a new section:
+Add the new wiki page entry under the appropriate section in `$CMD_DIR/index.md`. If a `## wiki/<type>s/` header already exists, insert the entry below it. If the header doesn't exist, append a new section:
 
 ```markdown
 ## wiki/ventures/
