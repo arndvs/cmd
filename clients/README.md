@@ -14,7 +14,7 @@ clients/
 │   ├── access-map.md   ← Who has access to what (no credentials here)
 │   ├── decisions.md    ← Append-only decision log
 │   ├── timeline.md     ← Chronological activity log
-│   └── _links.md       ← External URL registry
+│   └── links.md        ← External URL registry
 │
 ├── my-client/
 │   ├── README.md
@@ -22,7 +22,7 @@ clients/
 │   ├── access-map.md
 │   ├── decisions.md
 │   ├── timeline.md
-│   └── _links.md
+│   └── links.md
 ```
 
 ## Rules

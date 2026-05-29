@@ -5,9 +5,10 @@ Immutable source material. You add files here. AI reads them. Nobody edits them 
 ## Subfolders
 
 - `articles/` — research docs, web clips, agreements, PDFs
+- `data/` — CSVs, JSON exports, datasets
+- `screenshots/` — images of competitor products, design inspiration, etc. - direct destination for your OS screenshot tool
 - `transcripts/` — meeting transcripts, voice notes, call recordings
 - `uploads/` — files dropped here for AI context (anything that doesn't fit above)
-- `data/` — CSVs, JSON exports, datasets
 
 ## Rules
 

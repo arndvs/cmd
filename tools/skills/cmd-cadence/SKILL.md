@@ -27,7 +27,7 @@ CMD_DIR="${CMD_DIR:-$HOME/cmd}"
 
 ### 2. Read the cadence template
 
-Read `$CMD_DIR/cadence/<frequency>.md` for the review structure and questions.
+Read `$CMD_DIR/cadence/_template/<frequency>.md` for the review structure and questions.
 
 ### 3. Gather data
 
@@ -41,7 +41,7 @@ Pull relevant data based on frequency:
 #### Weekly
 - This week's entries from `log.md` (last 7 days)
 - Content shipped this week (files in `content/posts/` or `content/drafts/` modified this week)
-- 5 review questions from `cadence/weekly.md`
+- 5 review questions from `cadence/_template/weekly.md`
 - Carryovers from last week's review (if exists in `cadence/reviews/`)
 - Progress against `strategy/rocks.md` milestones
 

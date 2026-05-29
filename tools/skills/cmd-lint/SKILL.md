@@ -38,8 +38,8 @@ Any other file at root is a violation.
 Scan `$CMD_DIR/` for directories not in the allowed set:
 
 ```
-raw, wiki, ventures, clients, strategy, cadence, content,
-atlas, templates, tools, archive, research
+raw, wiki, ventures, clients, strategy, cadence, missions, calendar,
+content, compute, atlas, templates, tools, archive
 ```
 
 Any other directory at root is a violation (except `.git`, `.obsidian`).
@@ -54,7 +54,7 @@ Scan `ventures/` and `clients/` directories. Cross-reference with `log.md`. Flag
 
 #### Check 5: TKTK placeholders
 
-Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`) are exempt.
+Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`), seed-content files (`compute/stacks.md`), root instruction docs (`CLAUDE.md`), and skill instructions (`tools/skills/`) are exempt.
 
 #### Check 6: index.md sync
 
@@ -79,6 +79,8 @@ Scan `log.md` for entries that don't match the expected format:
 ```
 [YYYY-MM-DD] operation | description
 ```
+
+Skip blank lines, headings (`#`), and HTML comments (`<!-- ... -->`) — these are structural scaffolding, not log entries.
 
 Valid operations: `ingest`, `query`, `compile`, `lint`, `decision`, `build`, `deploy`, `content`, `cadence`
 

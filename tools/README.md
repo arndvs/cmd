@@ -7,7 +7,8 @@ Automation that operates on cmd — skills, scripts, and integrations.
 ```
 tools/
 ├── skills/         ← AI agent skills (ctrl+shft SKILL.md format)
-│   └── README.md
+│   ├── README.md   ← Skill registry with status table
+│   └── <name>/     ← One directory per skill (see skills/README.md)
 └── README.md
 ```
 

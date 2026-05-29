@@ -72,30 +72,32 @@ TKTK_ONELINER
 Create `$CMD_DIR/wiki/ventures/<slug>.md` or `$CMD_DIR/wiki/clients/<slug>.md`:
 
 ```markdown
+---
+type: venture | client
+status: active
+last_updated: YYYY-MM-DD
+---
+
 # <Name>
 
 > <One-liner>
 
-**Type:** venture | client
-**Created:** YYYY-MM-DD
-**Status:** active
-
-## Overview
+## Summary
 
 TKTK — expand after initial setup.
 
-## Key decisions
+## Key facts
 
-- [YYYY-MM-DD] Founded — see [decisions.md](../../ventures/<slug>/decisions.md)
+- **Founded:** YYYY-MM-DD — see [decisions.md](../../<type>s/<slug>/decisions.md)
 
-## Related
+## Links
 
-- Venture directory: [ventures/<slug>/](../../ventures/<slug>/)
+- **Directory:** [<type>s/<slug>/](../../<type>s/<slug>/)
 ```
 
 ### 6. Update index.md
 
-Append the new wiki page to the appropriate section in `$CMD_DIR/index.md`:
+Add the new wiki page entry under the appropriate section in `$CMD_DIR/index.md`. If a `## wiki/<type>s/` header already exists, insert the entry below it. If the header doesn't exist, append a new section:
 
 ```markdown
 ## wiki/ventures/
