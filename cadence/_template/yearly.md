@@ -58,7 +58,7 @@
 
 ## The output
 
-Drop the finalized review in `strategy/yearly-YYYY.md`. Next year, every AI session has this context. This year's review becomes next year's Command.
+Drop the finalized review in `cadence/reviews/YYYY-MM-DD-yearly.md`. Next year, every AI session has this context. This year's review becomes next year's Command.
 
 ## Set the next year
 
