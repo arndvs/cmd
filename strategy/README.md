@@ -17,8 +17,8 @@ Strategy cascades downward:
 theme.md (annual)
   → objectives.md (quarterly)
     → rocks.md (13-week)
-      → cadence/weekly.md (weekly review)
-        → cadence/daily.md (daily priorities)
+      → cadence/_template/weekly.md (weekly review)
+        → cadence/_template/daily.md (daily priorities)
 ```
 
 Each layer references the layer above. If your daily work doesn't connect to a rock, something is misaligned.
