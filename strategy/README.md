@@ -32,8 +32,8 @@ Each layer references the layer above. If your daily work doesn't connect to a r
 When a quarter or year ends, archive the outgoing files before updating:
 
 **At quarter boundary:**
-1. Copy `objectives.md` → `archive/strategy/YYYY-Q_-objectives.md`
-2. Copy `rocks.md` → `archive/strategy/YYYY-Q_-rocks.md`
+1. Copy `objectives.md` → `archive/strategy/YYYY-QN-objectives.md`
+2. Copy `rocks.md` → `archive/strategy/YYYY-QN-rocks.md`
 3. Fill in the end-of-quarter retrospective in `rocks.md` before archiving
 4. Update the living docs for the new quarter
 

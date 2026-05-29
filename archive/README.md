@@ -24,7 +24,7 @@ archive/
 
 Strategy files are living documents that get overwritten at quarter/year boundaries. Archive the outgoing version first:
 
-- **Quarterly:** `archive/strategy/YYYY-Q_-objectives.md`, `archive/strategy/YYYY-Q_-rocks.md`
+- **Quarterly:** `archive/strategy/YYYY-QN-objectives.md`, `archive/strategy/YYYY-QN-rocks.md`
 - **Yearly:** `archive/strategy/YYYY-theme.md`
 
 See `strategy/README.md` for the full archive workflow.

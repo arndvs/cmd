@@ -28,7 +28,7 @@ Most operators only run two of the five (usually daily + weekly). The compoundin
 ## How to run a cadence
 
 1. Copy the template from `_template/<freq>.md`
-2. Save to `reviews/YYYY-MM-DD-<freq>.md` (or `YYYY-MM-monthly.md`, `YYYY-Q_-quarterly.md`, `YYYY-yearly.md`)
+2. Save to `reviews/YYYY-MM-DD-<freq>.md`
 3. Fill it out
 4. Template stays clean for next time
 
@@ -246,5 +246,5 @@ Most operators running quarterly cadence skip yearly because "it's just four qua
 ## Rules
 
 - **Don't skip weekly.** It's the minimum viable cadence. Everything else is optional but weekly is not.
-- **Reviews go in `reviews/`.** Named by convention: `YYYY-MM-DD-daily.md`, `YYYY-MM-DD-weekly.md`, `YYYY-MM-monthly.md`, `YYYY-Q_-quarterly.md`, `YYYY-yearly.md`.
+- **Reviews go in `reviews/`.** Named by convention: `YYYY-MM-DD-<freq>.md` (e.g. `2026-05-29-daily.md`, `2026-05-29-weekly.md`, `2026-05-29-monthly.md`, `2026-05-29-quarterly.md`, `2026-05-29-yearly.md`).
 - **Templates are starting points.** Edit them to fit your rhythm. The structure is a scaffold, not a contract.
