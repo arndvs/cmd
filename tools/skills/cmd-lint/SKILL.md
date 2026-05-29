@@ -39,7 +39,7 @@ Scan `$CMD_DIR/` for directories not in the allowed set:
 
 ```
 raw, wiki, ventures, clients, strategy, cadence, missions, calendar,
-content, compute, atlas, templates, tools, archive, research
+content, compute, atlas, templates, tools, archive
 ```
 
 Any other directory at root is a violation (except `.git`, `.obsidian`).
@@ -54,7 +54,7 @@ Scan `ventures/` and `clients/` directories. Cross-reference with `log.md`. Flag
 
 #### Check 5: TKTK placeholders
 
-Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`) and seed-content files (`compute/stacks.md`) are exempt.
+Scan all `.md` files for remaining `TKTK` placeholders. Template files (`_template/`), seed-content files (`compute/stacks.md`), and skill instructions (`tools/skills/`) are exempt.
 
 #### Check 6: index.md sync
 
