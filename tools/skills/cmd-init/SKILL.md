@@ -88,11 +88,11 @@ TKTK — expand after initial setup.
 
 ## Key facts
 
-- **Founded:** YYYY-MM-DD — see [decisions.md](../../ventures/<slug>/decisions.md)
+- **Founded:** YYYY-MM-DD — see [decisions.md](../../<type>s/<slug>/decisions.md)
 
 ## Links
 
-- **Venture directory:** [ventures/<slug>/](../../ventures/<slug>/)
+- **Directory:** [<type>s/<slug>/](../../<type>s/<slug>/)
 ```
 
 ### 6. Update index.md
