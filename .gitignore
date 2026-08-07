@@ -31,3 +31,9 @@ Desktop.ini
 node_modules/
 dist/
 .wrangler/
+
+# Artifact lifecycle — ignored runtime lanes
+# Never blanket-ignore working/ — only specific subdirectories containing runtime noise.
+working/runtime/
+working/tmp/
+working/logs/
