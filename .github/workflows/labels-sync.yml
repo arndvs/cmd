@@ -8,7 +8,7 @@ on:
   push:
     # Default branch + main: labels.json lands on the default branch via PR, then reaches main on
     # promotion; reconcile on both (a duplicate entry when the default already IS main is harmless).
-    branches: ["dev", "main"]
+    branches: ["main", "main"]
     paths:
       - ".sandcastle/labels.json"
   schedule:

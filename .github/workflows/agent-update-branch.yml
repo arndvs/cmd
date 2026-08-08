@@ -71,7 +71,7 @@ jobs:
       - name: Checkout workflow actions
         uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
 
       - name: Fetch PR head sandcastle.config.json
         id: fetch-pr-head-config
@@ -94,7 +94,7 @@ jobs:
         run: |
           # Only point preflight at the PR-head config when the fetch step
           # actually produced one; otherwise leave SANDCASTLE_CONFIG_PATH unset
-          # so preflight falls back to the checked-out dev config.
+          # so preflight falls back to the checked-out main config.
           if [ -n "${{ steps.fetch-pr-head-config.outputs.config_path }}" ]; then
             export SANDCASTLE_CONFIG_PATH="${{ steps.fetch-pr-head-config.outputs.config_path }}"
           fi
@@ -181,7 +181,7 @@ jobs:
         if: always()
         uses: actions/checkout@v4
         with:
-          ref: dev
+          ref: main
 
       - name: Sandcastle teardown
         if: always()
