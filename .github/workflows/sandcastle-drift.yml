@@ -94,7 +94,7 @@ jobs:
           git push origin "$branch"
           # Open PR to the default branch
           gh pr create \
-            --base "dev" \
+            --base "main" \
             --head "$branch" \
             --title "chore(sandcastle): re-vendor from producer source" \
             --body "Automated re-vendor PR from the Sandcastle drift-detection workflow.
