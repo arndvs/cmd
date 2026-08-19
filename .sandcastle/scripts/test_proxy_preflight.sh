@@ -2,18 +2,13 @@
 #
 # test_proxy_preflight.sh — hermetic tests for proxy_preflight.sh.
 #
-# Stubs curl via PATH so proxy readiness/model checks run offline. The same
-# suite runs against the template script and the installed dogfood copy because
-# GitHub Actions execute the installed `.sandcastle/scripts` path.
+# Stubs curl via PATH so proxy readiness/model checks run offline. The suite
+# runs against the installed `.sandcastle/scripts/proxy_preflight.sh`, which is
+# the copy GitHub Actions executes. (This checkout has no `shft/` template
+# source, so a template+installed dual-run would exercise the same file twice.)
 set -euo pipefail
 
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
-# Resolve the repo root robustly from either the template location
-# (shft/templates/scripts) or the installed dogfood location
-# (.sandcastle/scripts). Walk up until we find the .git marker. Use -e
-# (exists) rather than -d (directory) so git worktrees/submodules, where
-# .git is a file, are also recognized as the repo root.
-ROOT="$(cd "$SCRIPT_DIR" && while [[ ! -e .git && "$PWD" != "/" ]]; do cd ..; done && pwd)"
 
 PASS=0
 FAIL=0
@@ -162,8 +157,7 @@ run_suite() {
 }
 
 echo "── proxy_preflight.sh tests ──"
-run_suite "template" "$SCRIPT_DIR/proxy_preflight.sh"
-run_suite "installed" "$ROOT/.sandcastle/scripts/proxy_preflight.sh"
+run_suite "installed" "$SCRIPT_DIR/proxy_preflight.sh"
 
 echo ""
 printf "  \033[32m%d passed\033[0m  \033[31m%d failed\033[0m\n" "$PASS" "$FAIL"
