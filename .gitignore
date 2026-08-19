@@ -1,5 +1,5 @@
 # Research (private, not part of the open-source repo)
-research/
+/research/
 
 # Secrets — non-negotiable
 .env
