@@ -30,7 +30,7 @@ jobs:
         run: |
           set -euo pipefail
           pinned=$(jq -r '.lastPinnedSha' .sandcastle/hub-version.json 2>/dev/null || echo "unknown")
-          latest=$(gh api repos/arndvs/sandcastle-hub/commits/main --jq '.sha' | cut -c1-7)
+          latest=$(gh api repos/arndvs/ctrlshft-hub/commits/main --jq '.sha' | cut -c1-7)
           echo "pinned=$pinned"
           echo "latest=$latest"
           if [ "$pinned" != "$latest" ]; then
@@ -58,4 +58,4 @@ jobs:
             --base main \
             --head "$branch" \
             --title "chore(sandcastle): review hub SHA update to $LATEST_SHA" \
-            --body "The hub engine updated on main. This PR reviews the new SHA before pinning. Check the diff here: https://github.com/arndvs/sandcastle-hub/compare/$LATEST_SHA..." || true
+            --body "The hub engine updated on main. This PR reviews the new SHA before pinning. Check the diff here: https://github.com/arndvs/ctrlshft-hub/compare/$LATEST_SHA..." || true
